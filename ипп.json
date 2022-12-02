@@ -1,0 +1,983 @@
+{
+  "debug_info": {
+    "intent_recognizer": [
+      {
+        "debug_info_key": "intent_recognizer",
+        "intent": "A24.08.032.my_pension",
+        "pattern": {
+          "A24.08.032.my_pension": {
+            "A24.08.032.my_pension": "\\b(пенси(и|я|ю|ей)|опс|ипп|нпо|кпп)\\b"
+          }
+        },
+        "asr_not_normalized_message": "покажи мой ипп",
+        "used_isearch": false,
+        "node_predictions": {
+          "grammar": {
+            "A24.08.032.my_pension": 1
+          },
+          "finalization_node": {
+            "A24.08.032.my_pension": 1
+          },
+          "finalization_node_mapping_resolver": {
+            "A24.08.032.my_pension": 1
+          },
+          "finalization_node_filter_resolver": {
+            "A24.08.032.my_pension": 1
+          },
+          "finalization_node_top_resolver": {
+            "A24.08.032.my_pension": 1
+          }
+        },
+        "blender": {
+          "activated": false
+        },
+        "ner_prediction": [
+          {
+            "raw_text": "покажи",
+            "lemma": "показать",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "мой",
+            "lemma": "мой",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "индивидуальный",
+            "lemma": "индивидуальный",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "пенсионный",
+            "lemma": "пенсионный",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "план",
+            "lemma": "план",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": ".",
+            "lemma": ".",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          }
+        ],
+        "item_selector": {
+          "selected_item": {},
+          "item_selector_domain": null,
+          "is_item_selector_run": false
+        },
+        "content_version": "P-37.065.00-10"
+      }
+    ],
+    "6b1b88a0-f384-448a-9734-a497736f6166": [
+      {
+        "intent": null,
+        "debug_info_key": "6b1b88a0-f384-448a-9734-a497736f6166"
+      }
+    ]
+  },
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "pronounceText": "<speak>Выберите договор, чтобы посмотреть детали</speak>",
+  "pronounceTextType": "application/ssml",
+  "auto_listening": true,
+  "projectName": "Покажи мою пенсию",
+  "intent": "A24.08.032.my_pension",
+  "original_intent": "A24.08.032.my_pension",
+  "app_info": {
+    "projectId": "6b1b88a0-f384-448a-9734-a497736f6166",
+    "applicationId": "ec8399ac-4e60-47aa-881b-997ae2314dda",
+    "appversionId": "587b0d79-d674-4bdf-b2c0-aceec1f6de55",
+    "systemName": "A24.08.032.my_pension",
+    "frontendEndpoint": null,
+    "frontendType": "DIALOG",
+    "apkInfo": {},
+    "ageLimit": 18,
+    "affiliationType": "BANKING",
+    "frontendStateId": "6b1b88a0-f384-448a-9734-a497736f6166_ec8399ac-4e60-47aa-881b-997ae2314dda_587b0d79-d674-4bdf-b2c0-aceec1f6de55",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "Покажи мою пенсию"
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": []
+  },
+  "activate_app_info": true,
+  "items": [
+    {
+      "bubble": {
+        "text": "Выберите договор",
+        "markdown": true
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "can_be_disabled": true,
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "3x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Выберите договор",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 6 июня 2017",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "1 286,68 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+286,68 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9008-000479729"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 13 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "4 269,10 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+269,10 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000040"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 16 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "4 852,04 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+297,04 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000095"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 16 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "133 935,92 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+1 935,92 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000097"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 16 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "6 356,66 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+356,66 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000100"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 16 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "163 015,73 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+3 015,73 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000102"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 16 марта 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "2 135,38 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000000103"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 9 июня 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "338 015,18 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+3 015,18 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000001855"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 11 мая 2021",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "243 665,23 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+665,23 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000023221"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 29 ноября 2021",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "67 011,76 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+11,76 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план \n№ 999-9015-000036734"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план с вкладом",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 5 июня 2021",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "115 542,82 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+542,82 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план с вкладом \n№ 999-9019-000000028"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "5x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Индивидуальный пенсионный план с вкладом",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "от 6 июня 2021",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "__PERSONAL_TEXT__": true,
+                    "text": "212 809 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "__PERSONAL_TEXT__": true,
+                      "text": "+809 ₽",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0
+                    }
+                  },
+                  "detail_position": "top",
+                  "vertical_gravity": "top"
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Индивидуальный пенсионный план с вкладом \n№ 999-9019-000000029"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "asr_hints": {
+    "words": [
+      "Отмена"
+    ]
+  },
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Отмена",
+        "action": {
+          "text": "Отмена",
+          "type": "text"
+        }
+      }
+    ]
+  },
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "НГ"
+  },
+  "feature_launcher": {
+    "assigned_testing_groups": [
+      "onboarding_F"
+    ],
+    "nlp_platform": {
+      "assigned_testing_groups": [
+        "onboarding_F"
+      ],
+      "device_selector": true,
+      "greenfield_segment_list": [
+        "grocery_mobile_04_2021",
+        "sbol_version_gte_12.0.0",
+        "SBOL",
+        "ALL_PEOPLES",
+        "onbordingTwo_nlp_platform"
+      ],
+      "onboardingEnabled": true,
+      "onboarding_ab": "onboarding_F"
+    },
+    "public": {
+      "greenfield_segment_list": [
+        "grocery_mobile_04_2021",
+        "sbol_version_gte_12.0.0",
+        "SBOL",
+        "ALL_PEOPLES",
+        "onbordingTwo_nlp_platform"
+      ]
+    }
+  },
+  "finished": false
+}
