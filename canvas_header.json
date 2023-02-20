@@ -68,7 +68,7 @@
                  "actions":[
 {
                    "type":"deep_link",
-                   "deep_link":"candroid-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=catalog"
+                   "deep_link":"android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=catalog"
                 }
                  ]
               }
