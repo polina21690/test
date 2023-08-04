@@ -1,0 +1,158 @@
+{
+  "additional_info" : "ANSWER_TO_USER",
+  "bytes" : "0 bytes",
+  "last" : false,
+  "system" : {
+    "activate_app_info" : true,
+    "additional_apps_payload" : [
+
+    ],
+    "app_info" : {
+      "affiliationType" : "INTERNAL",
+      "ageLimit" : 6,
+      "allowFastRunApp" : false,
+      "apkInfo" : {
+
+      },
+      "appearance" : {
+        "header" : {
+          "icon" : {
+            "hash" : "1fa6729fd447b7c327ca5b105786a749",
+            "type" : "url",
+            "url" : "https:\/\/cdn.sberdevices.ru\/static\/services\/target\/30be108e-0aee-494f-95ea-b1a6caac4e9e\/bb49cde2-0337-47c3-a275-cb55da056847.png"
+          },
+          "title" : "Силуэты: угадай героя"
+        }
+      },
+      "applicationId" : "2f8756e7-7d31-44d9-be83-b5301547c38f",
+      "appversionId" : "ed438b29-70a9-47b1-96d5-a1917494c752",
+      "availableOrientations" : [
+
+      ],
+      "frontendEndpoint" : null,
+      "frontendStateId" : "b61cdd8a-2e71-4923-b7df-462d0b5e329a_2f8756e7-7d31-44d9-be83-b5301547c38f_ed438b29-70a9-47b1-96d5-a1917494c752",
+      "frontendType" : "CHAT_APP",
+      "projectId" : "b61cdd8a-2e71-4923-b7df-462d0b5e329a",
+      "securityAccess" : {
+
+      },
+      "systemName" : "guess_hero_smf"
+    },
+    "asr_hints" : {
+
+    },
+    "assistant_items" : [
+
+    ],
+    "auto_listening" : true,
+    "character" : {
+      "id" : "sber"
+    },
+    "debug_info" : {
+
+    },
+    "feature_launcher" : {
+
+    },
+    "finished" : false,
+    "intent" : "run_app",
+"header_buttons": [
+    {
+      "icon_address": {
+        "address": {
+           "type": "url",
+           "url": "https://cdn.sberdices.ru/any_image.png"
+        },
+        "log_id": "operator_header_button",
+        "actions": [
+          {
+            "type": "deeplink",
+            "deeplink": «https://sberbank.ru»
+          }
+        ]
+      }
+    }
+  ],
+    "items" : [
+      {
+        "bubble" : {
+          "expand_policy" : "auto_expand",
+          "markdown" : false,
+          "text" : "Привет! Я покажу силуэт героя мультфильма, нужно угадать, кто это. Чтобы закончить игру, скажите «Выйти»"
+        }
+      },
+      {
+        "bubble" : {
+          "expand_policy" : "auto_expand",
+          "markdown" : false,
+          "text" : "Чей это силуэт?"
+        }
+      },
+      {
+        "card" : {
+          "items" : [
+            {
+              "image" : {
+                "hash" : "e528558c5fb13c42976990caaf14b3e0",
+                "size" : {
+                  "aspect_ratio" : 1.5,
+                  "width" : "medium"
+                },
+                "url" : "https:\/\/cdn.sberdevices.ru\/VA\/images\/souzmultfilm\/koroleva_s.png"
+              },
+              "type" : "media_gallery_item"
+            }
+          ],
+          "type" : "gallery_card"
+        }
+      }
+    ],
+    "original_intent" : "run_app",
+    "projectName" : "Силуэты: угадай героя",
+    "pronounceText" : "Привет! Я покажу силуэт героя мультфильма, нужно угадать, кто это. Чтобы закончить игру, скажите «Выйти»Чей это силуэт?",
+    "sid" : "",
+    "smartBio" : {
+
+    },
+    "suggestions" : {
+      "buttons" : [
+        {
+          "action" : {
+            "server_action" : {
+              "action_id" : "another"
+            },
+            "type" : "server_action"
+          },
+          "message_name" : "SERVER_ACTION",
+          "title" : "Другую загадку"
+        },
+        {
+          "action" : {
+            "server_action" : {
+              "action_id" : "answer"
+            },
+            "type" : "server_action"
+          },
+          "message_name" : "SERVER_ACTION",
+          "title" : "Узнать ответ"
+        },
+        {
+          "action" : {
+            "server_action" : {
+              "action_id" : "exit"
+            },
+            "type" : "server_action"
+          },
+          "message_name" : "SERVER_ACTION",
+          "title" : "Выйти"
+        }
+      ]
+    },
+    "userSettings" : {
+      "initials" : "ПД"
+    },
+    "voice" : "She_HQ"
+  },
+  "timestamp" : 1691155412029,
+  "version" : 0
+} 
