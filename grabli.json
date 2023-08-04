@@ -1,8 +1,4 @@
 {
-  "additional_info": "ANSWER_TO_USER",
-  "bytes": "0 bytes",
-  "last": false,
-  "system": {
     "activate_app_info": true,
     "additional_apps_payload": [],
     "app_info": {
@@ -134,7 +130,4 @@
       "initials": "ПД"
     },
     "voice": "She_HQ"
-  },
-  "timestamp": 1691155412029,
-  "version": 0
-}
+  }
