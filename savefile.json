@@ -28,7 +28,7 @@
     "allowFastRunApp": false,
     "availableOrientations": []
   },
-  "activate_app_info": false,
+  "activate_app_info": true,
   "items": [
     {
       "command": {
