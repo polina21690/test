@@ -1,0 +1,54 @@
+{
+  "debug_info": {},
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "auto_listening": false,
+  "projectName": "ad86bdb6-3046-49c4-a3c6-aa5c31157837",
+  "intent": "run_app",
+  "original_intent": "axon",
+  "app_info": {
+    "projectId": "f15b5d11-e867-47d0-a782-de78a28a4bab",
+    "applicationId": "267f1cfe-d215-4d69-b0ae-8f27530fabbd",
+    "appversionId": "86a2cfba-37f9-44a6-b78a-ad2bb03a0a9b",
+    "systemName": "",
+    "frontendEndpoint": "https://todo.dev.app.sberdevices.ru",
+    "frontendType": "WEB_APP",
+    "apkInfo": {},
+    "ageLimit": 18,
+    "affiliationType": "EXTERNAL",
+    "frontendStateId": "f15b5d11-e867-47d0-a782-de78a28a4bab_267f1cfe-d215-4d69-b0ae-8f27530fabbd_86a2cfba-37f9-44a6-b78a-ad2bb03a0a9b",
+    "securityAccess": {
+      "canvasFileSaveAllowed": 0
+    },
+    "appearance": {
+      "header": {
+        "title": "ad86bdb6-3046-49c4-a3c6-aa5c31157837"
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": []
+  },
+  "activate_app_info": false,
+  "items": [
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "type": "go_to",
+          "payload": "uploads"
+        }
+      }
+    }
+  ],
+  "asr_hints": {},
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "ПД"
+  },
+  "feature_launcher": {},
+  "finished": false
+}
