@@ -12,7 +12,7 @@
     "applicationId": "267f1cfe-d215-4d69-b0ae-8f27530fabbd",
     "appversionId": "86a2cfba-37f9-44a6-b78a-ad2bb03a0a9b",
     "systemName": "",
-    "frontendEndpoint": "https://todo.dev.app.sberdevices.ru",
+    "frontendEndpoint": "https://todo.dev.app.sberdevices.ru/uploads",
     "frontendType": "WEB_APP",
     "apkInfo": {},
     "ageLimit": 18,
@@ -36,15 +36,6 @@
         "text": "Начнем",
         "expand_policy": "auto_expand",
         "markdown": false
-      }
-    },
-    {
-      "command": {
-        "type": "smart_app_data",
-        "smart_app_data": {
-          "type": "go_to",
-          "payload": "uploads"
-        }
       }
     }
   ],
