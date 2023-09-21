@@ -1,0 +1,138 @@
+{
+	"items": [
+		{
+			"card": {
+				"can_be_disabled": true,
+				"cells": [
+					{
+						"content": {
+							"text": "Оплата мобильной связи",
+							"text_color": "default",
+							"typeface": "headline3",
+							"accessibility": "Альтернатива Оплата мобильной связи"
+						},
+						"paddings": {
+							"bottom": "6x",
+							"left": "8x",
+							"right": "8x",
+							"top": "6x"
+						},
+						"type": "text_cell_view"
+					},
+					{
+						"divider": {
+							"size": "d4",
+							"style": "default"
+						},
+						"left": {
+							"icon": {
+								"address": {
+									"identificator": "house_handset",
+									"type": "local"
+								},
+								"margins": {
+									"left": "8x",
+									"right": "6x"
+								},
+								"size": {
+									"height": "medium",
+									"width": "medium"
+								},
+								"tint_color": "deprecated_primary"
+							},
+							"icon_vertical_gravity": "center",
+							"texts": {
+								"subtitle": {
+									"margins": {
+										"top": "4x"
+									},
+									"text": "МТС",
+									"text_color": "default",
+									"typeface": "body1"
+								},
+								"title": {
+									"text": "Оператор",
+									"text_color": "secondary",
+									"typeface": "footnote1"
+								}
+							},
+							"type": "simple_left_view"
+						},
+						"paddings": {
+							"bottom": "8x",
+							"left": "0x",
+							"right": "8x",
+							"top": "6x"
+						},
+						"type": "left_right_cell_view"
+					},
+					{
+						"actions": [
+							{
+								"text": "изменить номер телефона",
+								"type": "text"
+							}
+						],
+						"divider": {
+							"size": "d5",
+							"style": "default"
+						},
+						"left": {
+							"icon": {
+								"address": {
+									"identificator": "mobile",
+									"type": "local"
+								},
+								"margins": {
+									"left": "8x",
+									"right": "6x"
+								},
+								"size": {
+									"height": "medium",
+									"width": "medium"
+								},
+								"tint_color": "deprecated_primary"
+							},
+							"icon_vertical_gravity": "center",
+							"texts": {
+								"subtitle": {
+									"margins": {
+										"top": "4x"
+									},
+									"text": "+7 (926) 636-47-57",
+									"text_color": "default",
+									"typeface": "body1"
+								},
+								"title": {
+									"text": "Номер телефона",
+									"text_color": "secondary",
+									"typeface": "footnote1"
+								}
+							},
+							"type": "simple_left_view"
+						},
+						"paddings": {
+							"bottom": "8x",
+							"left": "0x",
+							"right": "0x",
+							"top": "6x"
+						},
+						"right": {
+							"margins": {
+								"bottom": "8x",
+								"right": "4x",
+								"top": "8x"
+							},
+							"type": "disclosure_right_view"
+						},
+						"type": "left_right_cell_view"
+					}
+				],
+				"paddings": {
+					"top": "4x"
+				},
+				"type": "list_card"
+			}
+		}
+	]
+}
